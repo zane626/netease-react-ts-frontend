@@ -1,0 +1,56 @@
+/**
+ * Created by zane on 2022/8/1 18:51
+ * @description .
+ */
+.header {
+  width: 100vw;
+}
+
+.ranking-list {
+  width: calc(100% - 40px);
+  margin: 20px auto 0;
+}
+
+.ranking-card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  .ranking-card-info {
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+
+    .ranking-card-name {
+      font-size: 42px;
+    }
+
+    .ranking-card-sub {
+      position: absolute;
+      left: 20px;
+      bottom: 10px;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  .ranking-card-list {
+    flex: 1;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+
+    .ranking-card-item {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "netease-react-ts-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "antd-mobile": "^5.20.0",
+    "axios": "^0.27.2",
+    "lodash": "^4.17.21",
+    "modern-css-reset": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.54.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^18.6.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
